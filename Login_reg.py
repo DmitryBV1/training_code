@@ -29,3 +29,5 @@ strong_pass.click()
 #5. Нажмите на кнопку "Register"
 time.sleep(3)
 reg_btn = driver.find_element_by_css_selector(".woocomerce-FormRow.form-row .woocommerce-Button.button").click()
+
+driver.quit()
